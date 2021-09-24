@@ -74,6 +74,10 @@ public class Client implements Serializable {
 		return birthDate;
 	}
 
+	public void setBirthDate(Instant birthDate) {
+		this.birthDate = birthDate;
+	}
+
 	public Integer getChildren() {
 		return children;
 	}
